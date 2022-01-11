@@ -9,8 +9,9 @@ It is essentially a Nim port of https://www.netero1010-securitylab.com/eavsion/a
 Proudly built with `nim c filename.nim` and no additional flags.
 
 ## usage
-`module_scanner.exe <path_to_exe>`
-Then modify the process name, shellcode and the module name to stomp.
+`module_scanner.exe <path_to_exe>` to get available modules.
+
+Then, modify the process name, shellcode and the module name to stomp in `noload_dllhollow.nim`.
 
 # credits
 @[netero-1010](https://github.com/netero1010) for the original technique
