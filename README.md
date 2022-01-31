@@ -1,6 +1,7 @@
 # nim-noload-dll-hollowing
 Unused DLL hollowing PoC in Nim
 ## tl;dr
+> **update:** add unhooking
 This repo accompanies a post on https://tishina.in/execution/nim-noload-dll-hollowing
 
 It is essentially a Nim port of https://www.netero1010-securitylab.com/eavsion/alternative-process-injection with RW/RX mapping, syscalls, and PPID spoofing, partially taken from @ajpc500 examples.
